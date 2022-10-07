@@ -3,4 +3,4 @@ services:
         image: discordirc/discord-irc:sha-b2e7598
         restart: unless-stopped
         volumes:
-            - ./discord-irc/config.json:/config/config.json
+            - ./config.json:/config/config.json
